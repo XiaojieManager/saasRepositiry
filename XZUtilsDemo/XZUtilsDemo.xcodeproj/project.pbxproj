@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71CFF822028242F00561CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F71CFF812028242F00561CB1 /* AppDelegate.m */; };
+		F71CFF852028242F00561CB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71CFF842028242F00561CB1 /* ViewController.m */; };
+		F71CFF882028242F00561CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71CFF862028242F00561CB1 /* Main.storyboard */; };
+		F71CFF8A2028242F00561CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71CFF892028242F00561CB1 /* Assets.xcassets */; };
+		F71CFF8D2028242F00561CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71CFF8B2028242F00561CB1 /* LaunchScreen.storyboard */; };
+		F71CFF902028242F00561CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F71CFF8F2028242F00561CB1 /* main.m */; };
+		F7F7A55D20282DD500B3CB09 /* UIView+XZKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53720282DD500B3CB09 /* UIView+XZKit.m */; };
+		F7F7A55E20282DD500B3CB09 /* NSString+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53820282DD500B3CB09 /* NSString+XZ.m */; };
+		F7F7A55F20282DD500B3CB09 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53A20282DD500B3CB09 /* NSTimer+BlocksKit.m */; };
+		F7F7A56020282DD500B3CB09 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53B20282DD500B3CB09 /* UIColor+Hex.m */; };
+		F7F7A56120282DD500B3CB09 /* UILabel+XZKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53D20282DD500B3CB09 /* UILabel+XZKit.m */; };
+		F7F7A56220282DD500B3CB09 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A53E20282DD500B3CB09 /* NSDate+Utilities.m */; };
+		F7F7A56320282DD500B3CB09 /* NSDictionary+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A54420282DD500B3CB09 /* NSDictionary+XZ.m */; };
+		F7F7A56620282DD500B3CB09 /* UIButton+XZKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A54B20282DD500B3CB09 /* UIButton+XZKit.m */; };
+		F7F7A56720282DD500B3CB09 /* NSNumber+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A54C20282DD500B3CB09 /* NSNumber+XZ.m */; };
+		F7F7A56820282DD500B3CB09 /* XZKeyBoardBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A54E20282DD500B3CB09 /* XZKeyBoardBaseView.m */; };
+		F7F7A56920282DD500B3CB09 /* XZSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A55120282DD500B3CB09 /* XZSectionHeaderView.m */; };
+		F7F7A56C20282DD500B3CB09 /* XZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A55420282DD500B3CB09 /* XZTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F71CFF7D2028242F00561CB1 /* XZUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71CFF802028242F00561CB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F71CFF812028242F00561CB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F71CFF832028242F00561CB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F71CFF842028242F00561CB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F71CFF872028242F00561CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F71CFF892028242F00561CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71CFF8C2028242F00561CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F71CFF8E2028242F00561CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71CFF8F2028242F00561CB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F7A53720282DD500B3CB09 /* UIView+XZKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZKit.m"; sourceTree = "<group>"; };
+		F7F7A53820282DD500B3CB09 /* NSString+XZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZ.m"; sourceTree = "<group>"; };
+		F7F7A53A20282DD500B3CB09 /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		F7F7A53B20282DD500B3CB09 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F7F7A53C20282DD500B3CB09 /* NSDictionary+XZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZ.h"; sourceTree = "<group>"; };
+		F7F7A53D20282DD500B3CB09 /* UILabel+XZKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XZKit.m"; sourceTree = "<group>"; };
+		F7F7A53E20282DD500B3CB09 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		F7F7A53F20282DD500B3CB09 /* NSNumber+XZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+XZ.h"; sourceTree = "<group>"; };
+		F7F7A54020282DD500B3CB09 /* UIButton+XZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XZKit.h"; sourceTree = "<group>"; };
+		F7F7A54220282DD500B3CB09 /* UIView+XZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZKit.h"; sourceTree = "<group>"; };
+		F7F7A54320282DD500B3CB09 /* NSString+XZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZ.h"; sourceTree = "<group>"; };
+		F7F7A54420282DD500B3CB09 /* NSDictionary+XZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZ.m"; sourceTree = "<group>"; };
+		F7F7A54520282DD500B3CB09 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F7F7A54620282DD500B3CB09 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		F7F7A54820282DD500B3CB09 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		F7F7A54920282DD500B3CB09 /* UILabel+XZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XZKit.h"; sourceTree = "<group>"; };
+		F7F7A54B20282DD500B3CB09 /* UIButton+XZKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XZKit.m"; sourceTree = "<group>"; };
+		F7F7A54C20282DD500B3CB09 /* NSNumber+XZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+XZ.m"; sourceTree = "<group>"; };
+		F7F7A54E20282DD500B3CB09 /* XZKeyBoardBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKeyBoardBaseView.m; sourceTree = "<group>"; };
+		F7F7A55120282DD500B3CB09 /* XZSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSectionHeaderView.m; sourceTree = "<group>"; };
+		F7F7A55420282DD500B3CB09 /* XZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTextField.m; sourceTree = "<group>"; };
+		F7F7A55520282DD500B3CB09 /* XZKeyBoardBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKeyBoardBaseView.h; sourceTree = "<group>"; };
+		F7F7A55820282DD500B3CB09 /* XZSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZSectionHeaderView.h; sourceTree = "<group>"; };
+		F7F7A55A20282DD500B3CB09 /* XZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTextField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71CFF7A2028242F00561CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71CFF742028242F00561CB1 = {
+			isa = PBXGroup;
+			children = (
+				F7F7A53520282DD500B3CB09 /* XZUtils */,
+				F71CFF7F2028242F00561CB1 /* XZUtilsDemo */,
+				F71CFF7E2028242F00561CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71CFF7E2028242F00561CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71CFF7D2028242F00561CB1 /* XZUtilsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71CFF7F2028242F00561CB1 /* XZUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F71CFF802028242F00561CB1 /* AppDelegate.h */,
+				F71CFF812028242F00561CB1 /* AppDelegate.m */,
+				F71CFF832028242F00561CB1 /* ViewController.h */,
+				F71CFF842028242F00561CB1 /* ViewController.m */,
+				F71CFF862028242F00561CB1 /* Main.storyboard */,
+				F71CFF892028242F00561CB1 /* Assets.xcassets */,
+				F71CFF8B2028242F00561CB1 /* LaunchScreen.storyboard */,
+				F71CFF8E2028242F00561CB1 /* Info.plist */,
+				F71CFF8F2028242F00561CB1 /* main.m */,
+			);
+			path = XZUtilsDemo;
+			sourceTree = "<group>";
+		};
+		F7F7A53520282DD500B3CB09 /* XZUtils */ = {
+			isa = PBXGroup;
+			children = (
+				F7F7A53620282DD500B3CB09 /* XZCategory */,
+				F7F7A54D20282DD500B3CB09 /* CustomView */,
+			);
+			name = XZUtils;
+			path = ../XZUtils;
+			sourceTree = "<group>";
+		};
+		F7F7A53620282DD500B3CB09 /* XZCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F7F7A53720282DD500B3CB09 /* UIView+XZKit.m */,
+				F7F7A53820282DD500B3CB09 /* NSString+XZ.m */,
+				F7F7A53A20282DD500B3CB09 /* NSTimer+BlocksKit.m */,
+				F7F7A53B20282DD500B3CB09 /* UIColor+Hex.m */,
+				F7F7A53C20282DD500B3CB09 /* NSDictionary+XZ.h */,
+				F7F7A53D20282DD500B3CB09 /* UILabel+XZKit.m */,
+				F7F7A53E20282DD500B3CB09 /* NSDate+Utilities.m */,
+				F7F7A53F20282DD500B3CB09 /* NSNumber+XZ.h */,
+				F7F7A54020282DD500B3CB09 /* UIButton+XZKit.h */,
+				F7F7A54220282DD500B3CB09 /* UIView+XZKit.h */,
+				F7F7A54320282DD500B3CB09 /* NSString+XZ.h */,
+				F7F7A54420282DD500B3CB09 /* NSDictionary+XZ.m */,
+				F7F7A54520282DD500B3CB09 /* UIColor+Hex.h */,
+				F7F7A54620282DD500B3CB09 /* NSTimer+BlocksKit.h */,
+				F7F7A54820282DD500B3CB09 /* NSDate+Utilities.h */,
+				F7F7A54920282DD500B3CB09 /* UILabel+XZKit.h */,
+				F7F7A54B20282DD500B3CB09 /* UIButton+XZKit.m */,
+				F7F7A54C20282DD500B3CB09 /* NSNumber+XZ.m */,
+			);
+			path = XZCategory;
+			sourceTree = "<group>";
+		};
+		F7F7A54D20282DD500B3CB09 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F7F7A54E20282DD500B3CB09 /* XZKeyBoardBaseView.m */,
+				F7F7A55120282DD500B3CB09 /* XZSectionHeaderView.m */,
+				F7F7A55420282DD500B3CB09 /* XZTextField.m */,
+				F7F7A55520282DD500B3CB09 /* XZKeyBoardBaseView.h */,
+				F7F7A55820282DD500B3CB09 /* XZSectionHeaderView.h */,
+				F7F7A55A20282DD500B3CB09 /* XZTextField.h */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71CFF7C2028242F00561CB1 /* XZUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71CFF932028242F00561CB1 /* Build configuration list for PBXNativeTarget "XZUtilsDemo" */;
+			buildPhases = (
+				F71CFF792028242F00561CB1 /* Sources */,
+				F71CFF7A2028242F00561CB1 /* Frameworks */,
+				F71CFF7B2028242F00561CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZUtilsDemo;
+			productName = XZUtilsDemo;
+			productReference = F71CFF7D2028242F00561CB1 /* XZUtilsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71CFF752028242F00561CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "赵肖杰";
+				TargetAttributes = {
+					F71CFF7C2028242F00561CB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F71CFF782028242F00561CB1 /* Build configuration list for PBXProject "XZUtilsDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71CFF742028242F00561CB1;
+			productRefGroup = F71CFF7E2028242F00561CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71CFF7C2028242F00561CB1 /* XZUtilsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71CFF7B2028242F00561CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CFF8D2028242F00561CB1 /* LaunchScreen.storyboard in Resources */,
+				F71CFF8A2028242F00561CB1 /* Assets.xcassets in Resources */,
+				F71CFF882028242F00561CB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71CFF792028242F00561CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F7A56820282DD500B3CB09 /* XZKeyBoardBaseView.m in Sources */,
+				F71CFF852028242F00561CB1 /* ViewController.m in Sources */,
+				F7F7A55F20282DD500B3CB09 /* NSTimer+BlocksKit.m in Sources */,
+				F7F7A56320282DD500B3CB09 /* NSDictionary+XZ.m in Sources */,
+				F7F7A56C20282DD500B3CB09 /* XZTextField.m in Sources */,
+				F71CFF902028242F00561CB1 /* main.m in Sources */,
+				F7F7A55E20282DD500B3CB09 /* NSString+XZ.m in Sources */,
+				F7F7A56220282DD500B3CB09 /* NSDate+Utilities.m in Sources */,
+				F7F7A56620282DD500B3CB09 /* UIButton+XZKit.m in Sources */,
+				F7F7A56020282DD500B3CB09 /* UIColor+Hex.m in Sources */,
+				F7F7A56120282DD500B3CB09 /* UILabel+XZKit.m in Sources */,
+				F7F7A56920282DD500B3CB09 /* XZSectionHeaderView.m in Sources */,
+				F71CFF822028242F00561CB1 /* AppDelegate.m in Sources */,
+				F7F7A55D20282DD500B3CB09 /* UIView+XZKit.m in Sources */,
+				F7F7A56720282DD500B3CB09 /* NSNumber+XZ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F71CFF862028242F00561CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71CFF872028242F00561CB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F71CFF8B2028242F00561CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71CFF8C2028242F00561CB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F71CFF912028242F00561CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F71CFF922028242F00561CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71CFF942028242F00561CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L265J7UBE2;
+				INFOPLIST_FILE = XZUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinsilk.XZUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71CFF952028242F00561CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L265J7UBE2;
+				INFOPLIST_FILE = XZUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinsilk.XZUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71CFF782028242F00561CB1 /* Build configuration list for PBXProject "XZUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CFF912028242F00561CB1 /* Debug */,
+				F71CFF922028242F00561CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71CFF932028242F00561CB1 /* Build configuration list for PBXNativeTarget "XZUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71CFF942028242F00561CB1 /* Debug */,
+				F71CFF952028242F00561CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71CFF752028242F00561CB1 /* Project object */;
+}
